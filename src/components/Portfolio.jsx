@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import profileImg from "../assets/Umar.png";
 import "../App.css";
 
 const Portfolio = () => {
@@ -22,7 +21,7 @@ const Portfolio = () => {
 
       {/* Hero Section */}
       <Container className="hero text-center py-5">
-        <img src={profileImg} alt="Profile" className="rounded-circle shadow" width="150" />
+      <img src="/umar.png" alt="Profile" className="rounded-circle shadow" width="150" />
         <h1 className="mt-3">Hi, I'm Umar Rahman</h1>
         <h5 className="mt-3">A Web Developer specializing in | HTML | CSS | JavaScript | React | Bootstrap</h5>
         <h5 className="mt-3">| Node.js | MongoDB | GitHub</h5>
