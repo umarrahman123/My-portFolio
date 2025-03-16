@@ -13,10 +13,12 @@
 
  
   .app.light-theme {
-    background: url('/src/assets/portFolio-bg\ \(2\).webp') no-repeat center center;
+    background: url('/src/assets/react.svg') no-repeat center center;
+    /* background-color: rgb(107, 129, 170); */
     background-size: cover;
     min-height: 100vh;
     width: 100%;
+   
   }
   
   
